@@ -1,0 +1,47 @@
+
+.view-development {
+  min-height: 152px; ;
+  background-color: $darksamon;
+  background: url(#{$assetPath}/bg21.png) no-repeat center $darksamon;
+  .title{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 748px;
+  }
+  .button-view-heading {
+    margin-bottom: 40px;
+    padding-top:  84px;
+    padding-bottom: 76px;
+    width: 30%;
+    height: 20px;
+    color: #5C3E3F;
+    i{
+      padding: 0 45px;
+    }
+  }
+}
+
+/* ==========================================================================
+  > fooetr
+  ========================================================================== */
+footer {
+  background-color: $gray;
+  min-height: 321px;
+  .footer-title {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: $white;
+    h6 {
+      text-transform: uppercase;
+      font-size: $font-size-base;
+    }
+    .list-unstyled {
+      text-transform: capitalize;
+      font-size: 16px;
+    }
+    p {
+      font-size: 16px;
+    }
+
+  }
+}

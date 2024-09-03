@@ -1,0 +1,98 @@
+
+/* ==========================================================================
+  > header
+  ========================================================================== */
+.header{
+  position: relative;
+  min-height: 800px;
+  .custom-nav{
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+    padding: 30px 0;
+    line-height: 30px;
+    .navbar-brand{
+    padding: 0;
+    }
+    .navbar-nav>li>a{
+      font-size: $font-size-small+3;
+      font-family: $avenir-next-demi;
+      font-weight: 600;
+      color: $white;
+    }
+
+     .navbar-nav > .active > a, .navbar-nav > .active > a:hover,  .navbar-nav > .active > a:focus{
+     color: $white;
+     background-color: $black;
+      }
+
+     .navbar-collapse, .navbar-form{
+       border: none;
+       box-shadow: none;
+    }
+    z-index: 1;
+  }
+
+  .caption-box{
+    padding-top: 230px;
+    margin-left: 65px;
+    h1{
+      text-transform: uppercase;
+    }
+    .content-box{
+     max-width: 300px;
+      text-align: left;
+    }
+    z-index: 1;
+  }
+
+  .caption-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    background: url(#{$assetPath}/bg.png) no-repeat center ;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+  .custom-btn{
+    padding: 30px 20px;
+    position: absolute;
+    bottom: 0;
+    background: $black;
+    border: 2px solid $black;
+    color: $white;
+    left: 25%;
+    font-size: $font-size-small;
+    line-height: 1;
+    z-index: 99999;
+    i{
+      margin-left: 40px;
+    }
+    &:hover{
+      background: $black;
+      border: 2px solid $black;
+      color: $white;
+    }
+  }
+}
+
+
+
+/* ==========================================================================
+  > sale-experience
+  ========================================================================== */
+.sale-experience{
+  padding: 130px 0;
+  position: relative;
+  .single-experience{
+   max-width: 1016px;
+    margin: 0 auto;
+    text-align: center;
+  h3{
+    color: $light-black;
+    opacity: .7;
+  }
+  }
+}
